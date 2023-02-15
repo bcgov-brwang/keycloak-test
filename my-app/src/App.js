@@ -85,7 +85,7 @@ let testToken = "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJxUWlFWDB2T2Z
             onChange={(e) => setSearchTerm(e.target.value)}
             placeholder="Search for movies"
           />
-          <h1>this is my test</>
+          <h1>this is my test</h1>
           <img
             src={SearchIcon}
             placeholder="search"
