@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NY1n7fEFh94U5U+KPrHK+HeBbKtspq0JHFhDJH7jjRKWnqx0j9/erIfKqhCWAt5YIT6OSeCSwo8aMpiu+jYTiA==",
+  "dgSpecHash": "2OIhUMu1HYV21hhEDTUC7gz8yP5k/+JDqajHBTC1ZWlFJUg8+it/HDpkYRYiHtY48jEDsmWH95rI4/YCorPvVw==",
   "success": true,
-  "projectFilePath": "C:\\Work\\keycloak-test-1\\api\\Api\\Api\\Api.csproj",
+  "projectFilePath": "C:\\Work\\keycloak-test\\api\\Api\\Api\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\BRWANG\\.nuget\\packages\\aspnetcore.keycloakauthentication\\2.1.2\\aspnetcore.keycloakauthentication.2.1.2.nupkg.sha512",
     "C:\\Users\\BRWANG\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
