@@ -51,7 +51,7 @@ jobs:
       - name: Build
         run: dotnet build
 
-  api-build:
+  api-test:
     runs-on: ubuntu-latest
     defaults:
       run:
