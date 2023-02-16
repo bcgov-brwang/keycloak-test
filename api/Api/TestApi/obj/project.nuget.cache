@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "M8qsHDfTMQLdsDjqdbGOGeHLSzKUzM0BSZUSb72WOPz4MmcjfTJfd9ZPFhPxHtrPJE0hBdLzvyd9PNK548I02w==",
+  "dgSpecHash": "aO/+i0qAWrymVV4hD9vrDhSgzLK08htW3Jaa63AYmKjbcWENBWUnMxHFLtuFEruza28UBusVH2VG5sG0qGUbHA==",
   "success": true,
   "projectFilePath": "C:\\Work\\keycloak-test\\api\\Api\\TestApi\\TestApi.csproj",
   "expectedPackageFiles": [
