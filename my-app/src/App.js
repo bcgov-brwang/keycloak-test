@@ -1,9 +1,10 @@
 import React from "react";
-import { useState, useEffect, useContext} from "react";
+import { useState, useEffect} from "react";
 import './App.css';
 import SearchIcon from './search.svg';
 import MovieCard from "./MovieCard";
-import { TokenContext } from './TokenContext';
+// import { TokenContext } from './TokenContext';
+
 
 console.log("print api key start");
 const apiKey = process.env.REACT_APP_API_KEY;
