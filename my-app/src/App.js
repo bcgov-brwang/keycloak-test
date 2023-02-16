@@ -63,7 +63,7 @@ console.log("bruce test 5");
           console.log(e);
         } finally {
           console.log("end");
-          console.log(response);
+          
         }
       };
       fetchData();
