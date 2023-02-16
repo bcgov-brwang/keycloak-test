@@ -22,7 +22,7 @@ jobs:
         with:
           access_token: ${{ github.token }}
 
-  build:
+  client-build:
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -38,4 +38,29 @@ jobs:
         run: npm run build
       - name: Test
         run: npm run test
-  
+
+  api-build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: api/Api
+    steps:
+      - uses: actions/checkout@v2
+      - name:  Install dependencies
+        run: dotnet restore
+      - name: Build
+        run: dotnet build
+
+  api-build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: api/Api/TestApi
+    steps:
+      - uses: actions/checkout@v2
+      - name:  Install dependencies
+        run: dotnet restore
+      - name: Build
+        run: dotnet build
+      - name: Test
+        run: dotnet test
