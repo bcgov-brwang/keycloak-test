@@ -23,6 +23,7 @@ const callApiWithAuth = async (url, token) => {
       "Authorization": `Bearer ${token}`
     }
   }).then(() => {
+    console.log(response);
     console.log("bruce test 12");
   }).catch(() => {
     console.log("bruce test 11");
