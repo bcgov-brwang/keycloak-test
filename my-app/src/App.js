@@ -39,7 +39,8 @@ const callApiWithAuth = async (url, token) => {
 
 const App = ({props}) => {
 
-  const token = useContext(TokenContext);
+  //const token = useContext(TokenContext);
+  const token = "test";
 
 console.log("bruce test 5");
   console.log("bruce test 6");
@@ -52,7 +53,7 @@ console.log("bruce test 5");
       searchMovies("Batman");
       const fetchData = async () => {
         try {
-          
+
           const response = await callApiWithAuth(apiUrl, {token});
           // setMyTitle(response.Text);
         } catch (e) {
