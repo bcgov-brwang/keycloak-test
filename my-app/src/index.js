@@ -2,7 +2,7 @@ import React from "react";
 import App from "./App";
 import { createRoot } from 'react-dom/client';
 import Keycloak from 'keycloak-js';
-import { TokenContext } from './TokenContext';
+// import { TokenContext } from './TokenContext';
 // import { useState } from "react";
 
 
@@ -60,9 +60,9 @@ const ssoConfig = {
         console.log("bruce test 2");
 
         root.render(
-            <TokenContext.Provider value={jwtToken}>
+            // <TokenContext.Provider value={jwtToken}>
                 <App />
-            </TokenContext.Provider>,
+            // </TokenContext.Provider>,
         );
       }
     })
