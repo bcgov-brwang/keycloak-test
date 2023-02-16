@@ -57,11 +57,13 @@ console.log("bruce test 5");
         try {
 
           const response = await callApiWithAuth(apiUrl, {token});
+          console.log(response);
           // setMyTitle(response.Text);
         } catch (e) {
           console.log(e);
         } finally {
           console.log("end");
+          console.log(response);
         }
       };
       fetchData();
