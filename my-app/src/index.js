@@ -11,9 +11,9 @@ let jwtToken = 'your_jwt_token';
 
 
 const ssoConfig = {
-    url: "https://dev.loginproxy.gov.bc.ca/auth",//process.env.REACT_APP_SSO_HOST,
-    realm: "standard",//process.env.REACT_APP_SSO_REALM,
-    clientId: "trans-action-3979"//process.env.REACT_APP_SSO_CLIENT
+    url: process.env.REACT_APP_SSO_HOST,
+    realm: process.env.REACT_APP_SSO_REALM,
+    clientId: process.env.REACT_APP_SSO_CLIENT
   };
   
   
